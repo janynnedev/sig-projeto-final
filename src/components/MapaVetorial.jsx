@@ -30,11 +30,10 @@ const iconeUsuario = new L.Icon({
 const CENTRO_FLORIPA = [-27.5954, -48.5480];
 
 const ESTILO_ABRANGENCIA = {
-    color: "#10b981", // Verde para a área de saúde
-    weight: 1,
-    opacity: 0.6,
-    fillColor: "#10b981",
-    fillOpacity: 0.1,
+    fillColor: "#3b83f6cb", 
+    color: "#1d4ed8",
+    weight: 2,
+    fillOpacity: 0.3
 };
 
 export default function MapaVetorial({ onSelecionarUnidade }) {
