@@ -1,0 +1,1769 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.598248,
+                    -27.578747,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE JARDIM ATLÂNTICO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Andresa Gerber Sagaz de Ávila<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Manoel Pizzolatti, 273. <br>T: (48) 3240-2168 / 3348-9595"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.598248,
+                -27.578747,
+                -48.598248,
+                -27.578747
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.583331,
+                    -27.579612,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE BALNEÁRIO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Júlio Cesar de Almeida Fogliato<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Av. Santa Catarina, 1.570. <br>T: (48) 3248-1620 / 3244-4904"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.583331,
+                -27.579612,
+                -48.583331,
+                -27.579612
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.580091,
+                    -27.590636,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "POLICLÍNICA CONTINENTE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Ulysses Cabral Olegário da Costa<br>Horários: 07:00 - 19:00<br>Endereço: Rua Heitor Blum, 521.<br>Recepção: (48) 3271-1713 / Administração: 3271-1715 / Farmácia: 3271-1716 / CEO: 3271-1721"
+                },
+                "styleUrl": "#icon-ci-2",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-2.png"
+            },
+            "bbox": [
+                -48.580091,
+                -27.590636,
+                -48.580091,
+                -27.590636
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.557396,
+                    -27.59272,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CENTRO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Wilmar José Elias Júnior<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Av. Rio Branco,90.<br>T: (48) 3952-0123 / 3952-0127 / 3952-0124"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.557396,
+                -27.59272,
+                -48.557396,
+                -27.59272
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.539918,
+                    -27.595395,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE MONTE SERRAT",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Bruna Palma Ribeiro Gama Lobo d`Eça<br>Horários: 07:00 - 17:00 <br>Endereço: R. General Nestor Passos, 226.<br>T: (48) 3223-7816 / 3223-3910"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.539918,
+                -27.595395,
+                -48.539918,
+                -27.595395
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.537053,
+                    -27.574558,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE AGRONÔMICA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Vanessa Andrade<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Rui Barbosa, s/n. <br>T: (48) 3228-1310 / 3228-1809"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.537053,
+                -27.574558,
+                -48.537053,
+                -27.574558
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.498226,
+                    -27.584645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE ITACORUBI",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Denise Machado Longhi<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rod. Amaro Antônio Vieira, 2260.<br>T: (48) 3334-5555 / 3334-0096"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.498226,
+                -27.584645,
+                -48.498226,
+                -27.584645
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.503625,
+                    -27.600936,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CÓRREGO GRANDE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Michelle Franzoni Vieira Nascimento<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua João Pio Duarte da Silva, 1415. <br>T: (48) 3234-1328 / 3234-0291"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.503625,
+                -27.600936,
+                -48.503625,
+                -27.600936
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.519978,
+                    -27.607941,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE PANTANAL",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Fabrício Casanova<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua Deputado Antônio Edu Vieira, 968.<br>T: (48) 3234-7880 / 3238-2232"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.519978,
+                -27.607941,
+                -48.519978,
+                -27.607941
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.518101,
+                    -27.589276,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "NIVEL CENTRAL e VISA",
+                "description": {
+                    "@type": "html",
+                    "value": "Secretário Municipal de Saúde: Dr. Carlos Daniel Moutinho Júnior<br>Horários: 07:00  - 19:00<br>Endereço: R. Henrique da Silva Fontes, 6100, Trindade.<br>T: (48) 3239-1500 / 3239-1505<br>VISA - Diretor: Leandro Garcia<br>T: (48) 3212-3910 / 3212-3900"
+                },
+                "styleUrl": "#icon-ci-3",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-3.png"
+            },
+            "bbox": [
+                -48.518101,
+                -27.589276,
+                -48.518101,
+                -27.589276
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.513157,
+                    -27.561752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE JOÃO PAULO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Tatiane Pereira de Souza<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. João Paulo,1268. <br>T: (48) 3238-1393 / 3238-0606"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.513157,
+                -27.561752,
+                -48.513157,
+                -27.561752
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.496495,
+                    -27.552599,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE SACO GRANDE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: João Paulo Mello da Silveira<br>Horários: 08:00 - 12:00 / 13:00 - 22:00<br>Endereço: Rod. Virgílio Várzea, s/n. <br>T: (48) 3238-0110 / 3238-0608 / 3234-6995"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.496495,
+                -27.552599,
+                -48.496495,
+                -27.552599
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.582742,
+                    -27.585567,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE ESTREITO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Patrícias Martins<br>Horários: 08:00 AS 12:00 / 13:00 AS 17:00<br>Endereço: R.  Aracy Vaz Callado, 742. <br>T: (48) 3244-1200 / 3348-5682"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.582742,
+                -27.585567,
+                -48.582742,
+                -27.585567
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.515276,
+                    -27.500854,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE SANTO ANTÔNIO DE LISBOA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Susana Clasen Moritz<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rodovia Nilta Franzoni Viegas, s/n.<br>T: (48) 3235 3294"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.515276,
+                -27.500854,
+                -48.515276,
+                -27.500854
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.483658,
+                    -27.442314,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE JURERÊ",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Mariana Laurindo<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua Jurerê Tradicional, 242. <br>T: (48) 3282-1670 / 3282-9761"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.483658,
+                -27.442314,
+                -48.483658,
+                -27.442314
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.456506,
+                    -27.451944,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CANASVIEIRAS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Bruno de Lima Bertuol<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rod. Francisco Faustino Martins, confluências SC 401 e SC 403.<br>T: (48) 3269-6902 / 3284-3051"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.456506,
+                -27.451944,
+                -48.456506,
+                -27.451944
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.432959,
+                    -27.421598,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CACHOEIRA DO BOM JESUS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Tanise Gonçalves de Freitas<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua Leonel Pereira, 273.<br>T: (48) 3284-8077 / 3284-6045"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.432959,
+                -27.421598,
+                -48.432959,
+                -27.421598
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.428032,
+                    -27.396382,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE PONTA DAS CANAS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Cleusa Marcia Vieira<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Alcides Bonatelli, s/n.<br>T: (48) 3284-1337/ 3284-2257"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.428032,
+                -27.396382,
+                -48.428032,
+                -27.396382
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.419519,
+                    -27.490685,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE RIO VERMELHO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Claudiniete Maria da Conceição Bezerra Vasconcelos<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rod. João Gualberto Soares, 1099. <br>T: (48) 3269-7100 / 3269-9857"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.419519,
+                -27.490685,
+                -48.419519,
+                -27.490685
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.44423,
+                    -27.472177,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE VARGEM GRANDE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Manoel José Pereira Filho<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Servidão União da Vitória, 110. <br>T: (48) 3269-5034 / 3369-3425"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.44423,
+                -27.472177,
+                -48.44423,
+                -27.472177
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.460275,
+                    -27.475244,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE VARGEM PEQUENA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Alixandra Trindade dos Santos<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rod Manoel Leôncio de Souza Brito, s/n.<br>T: (48) 3269-5898"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.460275,
+                -27.475244,
+                -48.460275,
+                -27.475244
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.4711,
+                    -27.505583,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE RATONES",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Adriana Maria Scheffer<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. João Januário da Silva, s/n. <br>T: (48) 3266-8090 / 3369-6436"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.4711,
+                -27.505583,
+                -48.4711,
+                -27.505583
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.461259,
+                    -27.542678,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE COSTA DA LAGOA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Elisabeth Becker<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Estrada Geral Costa da Lagoa, Ponto 16.<br>T: (48) 3335-3119 / 3335-3048"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.461259,
+                -27.542678,
+                -48.461259,
+                -27.542678
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.599276,
+                    -27.586685,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE SAPÉ",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Marcus Vinicius de Abreu Teodoro<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Trav. Prof°. Waldemar Osmar Hermann, 82. <br>T: (48) 3240 6602 / 3240 9382"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.599276,
+                -27.586685,
+                -48.599276,
+                -27.586685
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.433335,
+                    -27.578852,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE BARRA DA LAGOA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Elizabete Amódio Estorílio<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Altamiro Barcelos Dutra, 659.<br>T: (48) 3232-3302 / 3226-7281"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.433335,
+                -27.578852,
+                -48.433335,
+                -27.578852
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.484203,
+                    -27.616076,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CANTO DA LAGOA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Luis Hass de Souza Neto<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua Laurindo Januário da Silveira, 2507.<br>T: (48) 3232-6121"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.484203,
+                -27.616076,
+                -48.484203,
+                -27.616076
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.470516,
+                    -27.599557,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE LAGOA DA CONCEIÇÃO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Ingrid Gonçalves Rodrigues de Souza<br>Horários: 08:00 as 12:00 - 13:00 as 22:00<br>Endereço: R. João Pacheco da Costa, 255. <br>T: (48) 3232-0639 / 3233-6990 / 3234-4322"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.470516,
+                -27.599557,
+                -48.470516,
+                -27.599557
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.527024,
+                    -27.615437,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE SACO DOS LIMÕES",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Camila Zardo<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Aldo Alves, s/n. <br>T: (48) 3333-6797 / 3223-4563"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.527024,
+                -27.615437,
+                -48.527024,
+                -27.615437
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.522723,
+                    -27.633588,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE COSTEIRA DO PIRAJUBAÉ",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Ivana Leandro de Medeiros Zóccoli <br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. João Câncio Jacques, 1.461.<br>T: (48) 3226-3333 / 3226-0933"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.522723,
+                -27.633588,
+                -48.522723,
+                -27.633588
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.564956,
+                    -27.686955,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE TAPERA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Décio Júnior de Almeida Fogliatto<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua das Areias, s/n.<br>T: (48) 3337-0289 / 3338-4531"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.564956,
+                -27.686955,
+                -48.564956,
+                -27.686955
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.533872,
+                    -27.703927,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE ALTO RIBEIRÃO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Laércio Gnecco<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R:Severiano Firmino Martins, 69.<br>T: (48) 3269-9917 / 3233-3989"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.533872,
+                -27.703927,
+                -48.533872,
+                -27.703927
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.502842,
+                    -27.664238,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE FAZENDA DO RIO TAVARES",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Ana Lúcia de Paula Xavier<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. do Conselho, s/n.<br>T: (48) 3233-4347 / 3338-3049"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.502842,
+                -27.664238,
+                -48.502842,
+                -27.664238
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.47799,
+                    -27.649817,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE RIO TAVARES",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Jesus Ruiz Santanilla<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua Silvio Lopes Araújo, s/n.<br>T: (48) 3232-6118 / 3226-8030"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.47799,
+                -27.649817,
+                -48.47799,
+                -27.649817
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.493652,
+                    -27.68121,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CAMPECHE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Nilza Alves Bernardes <br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Av. Pequeno Príncipe, 1714.<br>T: (48) 3237-4524/ 3237-4074"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.493652,
+                -27.68121,
+                -48.493652,
+                -27.68121
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.598906,
+                    -27.591352,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE MONTE CRISTO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Fátima Terezinha Farias <br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Joaquim Nabuco, s/n. <br>T: (48) 3240-8809 / 3348-7467"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.598906,
+                -27.591352,
+                -48.598906,
+                -27.591352
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.507675,
+                    -27.716115,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE MORRO DAS PEDRAS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Kamile Rocha Wentz<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rodovia SC-406, 1.685.<br>T: (48) 3237-9013 / 3338-7627"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.507675,
+                -27.716115,
+                -48.507675,
+                -27.716115
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.558924,
+                    -27.811384,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CAIEIRA DA BARRA DO SUL",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Sandra Regina Osti<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rod. Baldicero Filomeno, 19.795.<br>T: (48) 3237-6239 / 3237-6483"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.558924,
+                -27.811384,
+                -48.558924,
+                -27.811384
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.562907,
+                    -27.717735,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE RIBEIRÃO DA ILHA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Carla Antoni Luchi<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. João José D'Avila, s/n.<br>T: (48) 3337-5997 / 3337-5579"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.562907,
+                -27.717735,
+                -48.562907,
+                -27.717735
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.507455,
+                    -27.780698,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE PÂNTANO DO SUL",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Francimar Furukawa Barreto<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Abelardo Otacílio Gomes, s/n.<br>T: (48) 3237-7032 / 3389-2840"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.507455,
+                -27.780698,
+                -48.507455,
+                -27.780698
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.510121,
+                    -27.752719,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE ARMAÇÃO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Laura Denize Reboa Castillo<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rod. SC-406, 6.074.<br>T: (48) 3389-5014 / 3389-5120"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.510121,
+                -27.752719,
+                -48.510121,
+                -27.752719
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.536299,
+                    -27.665946,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CARIANOS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Caren Della Méa da Fonseca<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Ver. Osvaldo Bittercourt, s/n.<br>T: (48) 3338-1125 / 3236-1333"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.536299,
+                -27.665946,
+                -48.536299,
+                -27.665946
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.388483,
+                    -27.439824,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE SANTINHO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Liege Teixeira Fontanive<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Rua Dom João Becker, 862.<br>T: (48) 3369-0174 / 3369-5514"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.388483,
+                -27.439824,
+                -48.388483,
+                -27.439824
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.546803,
+                    -27.606677,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE PRAINHA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Thaise Alana Goronzi<br>Horários: 07:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Silva Jardim, 621.<br>T: 3225-7647/ 3225-8134"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.546803,
+                -27.606677,
+                -48.546803,
+                -27.606677
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.580848,
+                    -27.583275,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CAPS ALCOOL E DROGAS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: André Rosito Marquardt<br>Horários: 08:00 as 18:00<br>Endereço: Rua José Cândido da Silva, 125.<br>T: (48) 3240-5472 / 3240-5679"
+                },
+                "styleUrl": "#icon-ci-4",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-4.png"
+            },
+            "bbox": [
+                -48.580848,
+                -27.583275,
+                -48.580848,
+                -27.583275
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.542597,
+                    -27.582903,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CAPS INFANTIL",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Fernanda Costa Nicolazzi<br>Horários: 08:00 - 18:00<br>Endereço: R. Allan Kardec, 120.<br>T: (48) 3324-1399 / 3228-6095"
+                },
+                "styleUrl": "#icon-ci-4",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-4.png"
+            },
+            "bbox": [
+                -48.542597,
+                -27.582903,
+                -48.542597,
+                -27.582903
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.591735,
+                    -27.590368,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE COLONINHA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Kelly Maciel Silva<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Aracy Vaz Callado, 1830.<br>T: (48) 3244-2891 / 3244-4902"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.591735,
+                -27.590368,
+                -48.591735,
+                -27.590368
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.536058,
+                    -27.572247,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CAPS ADULTO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Marcelo Brandt Fialho<br>Horários: 08:00 - 18:00<br>Endereço: R. Rui Barbosa, 713 fundos.<br>T: (48) 3228-5074 / 3228-9090"
+                },
+                "styleUrl": "#icon-ci-4",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-4.png"
+            },
+            "bbox": [
+                -48.536058,
+                -27.572247,
+                -48.536058,
+                -27.572247
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.52254,
+                    -27.585703,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE TRINDADE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Alessandra Souza Machado Evangelista<br>Horários: 07:00 - 12:00 / 13:00 - 17:00<br>Endereço: Confluência da rua Odilon Fernandes c/ av. Henrique da Silva Fontes, 6000.<br>T: (48) 3234-9577 / 3234-0177"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.52254,
+                -27.585703,
+                -48.52254,
+                -27.585703
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.513619,
+                    -27.574653,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "BEM ESTAR ANIMAL / CENTRO DE ZOONOSES",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: João Eduardo Pereira Cavallazzi<br>Horários: 08:00 - 12:00 / 13:00 - 18:00<br>Endereço: Rodovia SC-401,114. <br>T: (48) 3237-6890"
+                },
+                "styleUrl": "#icon-ci-5",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-5.png"
+            },
+            "bbox": [
+                -48.513619,
+                -27.574653,
+                -48.513619,
+                -27.574653
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.503968,
+                    -27.666492,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "POLICLINICA SUL ",
+                "description": {
+                    "@type": "html",
+                    "value": "Policlinica Sul<br>Coordenador: Andresa Bauer<br>Horários: 07:00 - 19:00<br>Endereço: Rod. SC 405, 682.<br>T: (48) 3239-1726 / 3239-1712 / 3239-1725"
+                },
+                "styleUrl": "#icon-ci-2",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-2.png"
+            },
+            "bbox": [
+                -48.503968,
+                -27.666492,
+                -48.503968,
+                -27.666492
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.456431,
+                    -27.451694,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "POLICLINICA NORTE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Neiva Marcon Pessetti<br>Horários: 07:00h as 19:00h<br>Endereço: Rua Francisco Faustino Martins, confluências SC 401 e SC 403.<br>T: (48) 3261-0600"
+                },
+                "styleUrl": "#icon-ci-2",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-2.png"
+            },
+            "bbox": [
+                -48.456431,
+                -27.451694,
+                -48.456431,
+                -27.451694
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.398855,
+                    -27.440017,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE INGLESES",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Henrique da Luz Daros<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Travessa dos Imigrantes, 135. <br>T: (48) 3369-3229"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.398855,
+                -27.440017,
+                -48.398855,
+                -27.440017
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.519503,
+                    -27.598279,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "FARMÁCIA ESCOLA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Janaína Baggio (SMS)<br>Horários: 9h as 17h<br>Endereço: Rua Delfino Conti, s/n. <br>Campus Universitário UFSC <br>T: (48) 3721-9567 / 3721-9647"
+                },
+                "styleUrl": "#icon-ci-6",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-6.png"
+            },
+            "bbox": [
+                -48.519503,
+                -27.598279,
+                -48.519503,
+                -27.598279
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.575664,
+                    -27.602895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE COQUEIROS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Pierre Guedes de Araújo<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: Av: Engenheiro Max de Souza s/n.  T: (48) 3248-0451 / 3241-6097"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.575664,
+                -27.602895,
+                -48.575664,
+                -27.602895
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.582757,
+                    -27.585394,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "LABORATÓRIO MUNICIPAL",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Eliana Maria Almeida<br>Horários: 07:00 - 16:00<br>Endereço: R.  Aracy Vaz Callado, 742. <br>T: (48) 3248-6602 / 3241-8979"
+                },
+                "styleUrl": "#icon-ci-7",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-7.png"
+            },
+            "bbox": [
+                -48.582757,
+                -27.585394,
+                -48.582757,
+                -27.585394
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.59721,
+                    -27.597039,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE CAPOEIRAS",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Arlete Ema Simão Kasper<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Irmã Bonavita, 286.<br>T: (48) 3248-1621 / 3248-1740"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.59721,
+                -27.597039,
+                -48.59721,
+                -27.597039
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.51882,
+                    -27.606975,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CAPS AD ILHA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Ana Paula Fonini Araújo<br>Horários: 08:00 - 18:00<br>Endereço: Rua Frederico Veras, 60.<br>T: (48) 3238-9926 / 3269-8799"
+                },
+                "styleUrl": "#icon-ci-4",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-4.png"
+            },
+            "bbox": [
+                -48.51882,
+                -27.606975,
+                -48.51882,
+                -27.606975
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.596048,
+                    -27.603667,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE ABRAÃO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Sandra Elizabete Just<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. João Meirelles, s/n. <br>T: (48) 3249-5844 / 3249-5962"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.596048,
+                -27.603667,
+                -48.596048,
+                -27.603667
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.58532,
+                    -27.605816,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE VILA APARECIDA",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Cilane Edecia Bauer<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço: R. Fermino Costa, 284. <br>T: (48) 3248-1611/ 3244-6724"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.58532,
+                -27.605816,
+                -48.58532,
+                -27.605816
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.57958,
+                    -27.598369,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "CENTRO DE SAÚDE NOVO CONTINENTE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Sandra Carvalho Ventura<br>Horários: 08:00 - 12:00 / 13:00 - 17:00<br>Endereço:Rua Prof. Clementino Brito esquina com a Rua Osvaldo de Oliveira.<br>T: (48) 3244-8488 / 3249-7111"
+                },
+                "styleUrl": "#icon-ci-1",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-1.png"
+            },
+            "bbox": [
+                -48.57958,
+                -27.598369,
+                -48.57958,
+                -27.598369
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.557289,
+                    -27.592721,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "POLICLÍNICA CENTRO",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: André Lancini<br>Horários: 07:00 às 19:00 <br>Endereço: Av. Rio Branco, 90.<br>T.: (48) 3952-0100 / 3952-0101 / 3952-0131"
+                },
+                "styleUrl": "#icon-ci-2",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-2.png"
+            },
+            "bbox": [
+                -48.557289,
+                -27.592721,
+                -48.557289,
+                -27.592721
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.503815,
+                    -27.666384,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UPA SUL",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Rodrigo Luchi<br>Horários: 24 Horas<br>Endereço: Rod SC 405, 682.<br>T:(48) 3239-1701"
+                },
+                "styleUrl": "#icon-ci-8",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-8.png"
+            },
+            "bbox": [
+                -48.503815,
+                -27.666384,
+                -48.503815,
+                -27.666384
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.456219,
+                    -27.451723,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UPA NORTE",
+                "description": {
+                    "@type": "html",
+                    "value": "Coordenador: Clóvis Sampaio<br>Horários: 24 Horas<br>Endereço: Rua Francisco Faustino Martins, confluências SC 401 e SC 403. <br>T:(48)3261 0614/ 3261-0616/ 3261-0613/ 3261-0615"
+                },
+                "styleUrl": "#icon-ci-8",
+                "label-scale": 0,
+                "icon-scale": 1.1,
+                "icon": "images/icon-8.png"
+            },
+            "bbox": [
+                -48.456219,
+                -27.451723,
+                -48.456219,
+                -27.451723
+            ]
+        }
+    ]
+}
