@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Polyline } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -40,6 +40,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
     const [dadosAbrangencia, setDadosAbrangencia] = useState(null);
     const [dadosPontos, setDadosPontos] = useState(null);
     const [localizacaoUsuario, setLocalizacaoUsuario] = useState(null);
+    const [destinoSelecionado, setDestinoSelecionado] = useState(null);
     const [carregando, setCarregando] = useState(true);
 
     useEffect(() => {
@@ -122,6 +123,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                                         coordenadas: [lat, lng],
                                         userCoords: localizacaoUsuario
                                     });
+                                    setDestinoSelecionado([lat, lng]);
                                 }
                             }}
                         >
@@ -135,6 +137,18 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                     <Marker position={localizacaoUsuario} icon={iconeUsuario}>
                         <Popup>Sua localização atual</Popup>
                     </Marker>
+                )}
+
+                {localizacaoUsuario && destinoSelecionado && (
+                    <Polyline 
+                        positions={[localizacaoUsuario, destinoSelecionado]} 
+                        pathOptions={{ 
+                            color: '#e11d48', 
+                            dashArray: '8, 8', 
+                            weight: 3,
+                            opacity: 0.8
+                        }} 
+                    />
                 )}
             </MapContainer>
         </div>
