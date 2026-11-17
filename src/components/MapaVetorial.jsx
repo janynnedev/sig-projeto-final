@@ -36,12 +36,29 @@ const ESTILO_ABRANGENCIA = {
     fillOpacity: 0.3
 };
 
+// Algoritmo Ray-Casting: Verifica se um ponto (GPS) está dentro de um Polígono (Bairro)
+function verificarPontoNoPoligono(pontoLngLat, coordenadasPoligono) {
+    const x = pontoLngLat[0], y = pontoLngLat[1];
+    let dentro = false;
+    const anelExterior = coordenadasPoligono[0]; // Pega as bordas externas da área
+    
+    for (let i = 0, j = anelExterior.length - 1; i < anelExterior.length; j = i++) {
+        const xi = anelExterior[i][0], yi = anelExterior[i][1];
+        const xj = anelExterior[j][0], yj = anelExterior[j][1];
+        
+        const cruzouMargem = ((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+        if (cruzouMargem) dentro = !dentro;
+    }
+    return dentro;
+}
+
 export default function MapaVetorial({ onSelecionarUnidade }) {
     const [dadosAbrangencia, setDadosAbrangencia] = useState(null);
     const [dadosPontos, setDadosPontos] = useState(null);
     const [localizacaoUsuario, setLocalizacaoUsuario] = useState(null);
     const [destinoSelecionado, setDestinoSelecionado] = useState(null);
     const [carregando, setCarregando] = useState(true);
+    const [autoSelecionado, setAutoSelecionado] = useState(false);
 
     useEffect(() => {
         Promise.all([
@@ -67,6 +84,44 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
         // Limpa o GPS ao desmontar o componente
         return () => navigator.geolocation.clearWatch(gpsId);
     }, []);
+
+    useEffect(() => {
+        if (localizacaoUsuario && dadosPontos && !autoSelecionado) {
+            const lng = localizacaoUsuario[1];
+            const lat = localizacaoUsuario[0];
+
+            // Descobre em qual polígono (área de saúde) o usuário está
+            const areaDoUsuario = dadosPontos.features.find(f => 
+                f.geometry && f.geometry.type === "Polygon" && 
+                verificarPontoNoPoligono([lng, lat], f.geometry.coordinates)
+            );
+
+            if (areaDoUsuario) {
+                // Acha o posto com o mesmo nome da área
+                const nomeDaArea = areaDoUsuario.properties.name.toLowerCase();
+                const postoDoUsuario = dadosPontos.features.find(f => 
+                    f.geometry && f.geometry.type === "Point" && 
+                    f.properties.name && f.properties.name.toLowerCase().includes(nomeDaArea)
+                );
+
+                if (postoDoUsuario) {
+                    const postoLat = postoDoUsuario.geometry.coordinates[1];
+                    const postoLng = postoDoUsuario.geometry.coordinates[0];
+
+                    onSelecionarUnidade({
+                        tipo: "posto",
+                        dados: postoDoUsuario.properties,
+                        coordenadas: [postoLat, postoLng],
+                        userCoords: localizacaoUsuario,
+                        abrangenciaAtual: true 
+                    });
+                    
+                    setDestinoSelecionado([postoLat, postoLng]); 
+                    setAutoSelecionado(true); 
+                }
+            }
+        }
+    }, [localizacaoUsuario, dadosPontos, autoSelecionado]);
 
     // Configura o clique nos polígonos de abrangência
     function aoConfigurarArea(feature, layer) {

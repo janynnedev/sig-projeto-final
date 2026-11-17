@@ -9,7 +9,6 @@ const MapaVetorial = dynamic(() => import("../components/MapaVetorial"), {
     loading: () => <p className={styles.instrucaoVazio}>Carregando sistema geográfico...</p>,
 });
 
-// Função auxiliar para o Haversine (Exercícios 04-06)
 function calcularDistancia(lat1, lon1, lat2, lon2) {
     const R = 6371; // Raio da Terra em km
     const dLat = (lat2 - lat1) * (Math.PI / 180);
@@ -42,10 +41,26 @@ export default function Home() {
                     <div className={styles.listaAtributos}>
                         {selecao.tipo === "posto" && (
                             <>
+                                {selecao.abrangenciaAtual && (
+                                    <div style={{ 
+                                        backgroundColor: 'rgba(16, 185, 129, 0.15)', 
+                                        borderLeft: '4px solid #10b981', 
+                                        padding: '12px 16px', 
+                                        borderRadius: '4px', 
+                                        marginBottom: '15px',
+                                        color: '#cbd5e1'
+                                    }}>
+                                        A unidade de saúde que abrange a sua localização atual é: <br/>
+                                        <strong style={{ color: '#10b981', fontSize: '1.1rem' }}>
+                                            {selecao.dados.name}
+                                        </strong>
+                                    </div>
+                                )}
+                                
                                 <p className={styles.itemAtributo}>
-                                    {/* Alterado para name em minúsculo */}
-                                    <strong>Unidade:</strong> {selecao.dados.name || "Não informado"}
+                                    <strong>Unidade selecionada:</strong> {selecao.dados.name || "Não informado"}
                                 </p>
+                                
                                 {selecao.userCoords && (
                                     <p className={styles.itemAtributo}>
                                         <strong>Distância em linha reta:</strong> {calcularDistancia(
@@ -59,12 +74,10 @@ export default function Home() {
                         
                         {selecao.tipo === "area" && (
                             <p className={styles.itemAtributo}>
-                                {/* Alterado para name em minúsculo */}
                                 <strong>Área de Abrangência:</strong> {selecao.dados.name || "Área selecionada"}
                             </p>
                         )}
                         
-                        {/* Correção para aceder a description.value */}
                         {selecao.dados.description && selecao.dados.description.value && (
                             <div 
                                 style={{ marginTop: '10px', fontSize: '0.9rem', color: '#64748b' }}
