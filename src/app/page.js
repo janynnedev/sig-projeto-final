@@ -87,7 +87,7 @@ export default function Home() {
                     </div>
                 ) : (
                     <p className={styles.instrucaoVazio}>
-                        Toque em um posto de saúde (marcador azul) ou em um bairro para ver os detalhes. Seu local é o marcador vermelho.
+                        Toque em um posto de saúde (cruz vermelha) ou em um bairro para ver os detalhes. Seu local é o marcador vermelho.
                     </p>
                 )}
             </section>

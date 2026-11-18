@@ -59,6 +59,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
     const [destinoSelecionado, setDestinoSelecionado] = useState(null);
     const [carregando, setCarregando] = useState(true);
     const [autoSelecionado, setAutoSelecionado] = useState(false);
+    const [unidadeAtiva, setUnidadeAtiva] = useState(null);
 
     useEffect(() => {
         Promise.all([
@@ -86,42 +87,42 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
     }, []);
 
     useEffect(() => {
-        if (localizacaoUsuario && dadosPontos && !autoSelecionado) {
+        if (localizacaoUsuario && dadosAbrangencia && dadosPontos && !autoSelecionado) {
             const lng = localizacaoUsuario[1];
             const lat = localizacaoUsuario[0];
 
-            // Descobre em qual polígono (área de saúde) o usuário está
-            const areaDoUsuario = dadosPontos.features.find(f => 
+            // 1. Procura em dadosAbrangencia (onde estão os polígonos)
+            const areaDoUsuario = dadosAbrangencia.features.find(f => 
                 f.geometry && f.geometry.type === "Polygon" && 
                 verificarPontoNoPoligono([lng, lat], f.geometry.coordinates)
             );
 
             if (areaDoUsuario) {
-                // Acha o posto com o mesmo nome da área
-                const nomeDaArea = areaDoUsuario.properties.name.toLowerCase();
+                // 2. Usa verificarAreaAtiva para achar o posto exato daquela área
                 const postoDoUsuario = dadosPontos.features.find(f => 
                     f.geometry && f.geometry.type === "Point" && 
-                    f.properties.name && f.properties.name.toLowerCase().includes(nomeDaArea)
+                    verificarAreaAtiva(areaDoUsuario.properties.name, f.properties.name)
                 );
 
                 if (postoDoUsuario) {
                     const postoLat = postoDoUsuario.geometry.coordinates[1];
                     const postoLng = postoDoUsuario.geometry.coordinates[0];
 
-                    onSelecionarUnidade({
-                        tipo: "posto",
+                    onSelecionarUnidade({ 
+                        tipo: "posto", 
                         dados: postoDoUsuario.properties,
                         coordenadas: [postoLat, postoLng],
                         userCoords: localizacaoUsuario,
-                        abrangenciaAtual: true 
+                        abrangenciaAtual: true // Ativa o aviso verde no painel
                     });
                     
-                    setDestinoSelecionado([postoLat, postoLng]); 
-                    setAutoSelecionado(true); 
+                    setDestinoSelecionado([postoLat, postoLng]);
+                    setUnidadeAtiva(postoDoUsuario.properties.name); // Acende a área automaticamente
+                    setAutoSelecionado(true);
                 }
             }
         }
-    }, [localizacaoUsuario, dadosPontos, autoSelecionado]);
+    }, [localizacaoUsuario, dadosAbrangencia, dadosPontos, autoSelecionado]);
 
     // Configura o clique nos polígonos de abrangência
     function aoConfigurarArea(feature, layer) {
@@ -131,6 +132,18 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                 onSelecionarUnidade({ tipo: "area", dados: feature.properties });
             },
         });
+    }
+
+    function verificarAreaAtiva(nomeArea, nomeUnidade) {
+        if (!nomeArea || !nomeUnidade) return false;
+
+        const areaLimpa = nomeArea.toLowerCase().trim();
+        const unidadeLimpa = nomeUnidade
+            .toLowerCase()
+            .replace("centro de saúde ", "")
+            .trim();
+
+        return unidadeLimpa === areaLimpa;
     }
 
     return (
@@ -151,8 +164,18 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                 {/* Camada 1: Polígonos de Abrangência */}
                 {dadosAbrangencia && (
                     <GeoJSON
+                        key={unidadeAtiva || "abrangencia-padrao"}
                         data={dadosAbrangencia}
-                        style={ESTILO_ABRANGENCIA}
+                        style={(feature) => {
+                            const estaAtiva = verificarAreaAtiva(feature.properties.name, unidadeAtiva);
+
+                            return {
+                                fillColor: estaAtiva ? "#2386f7e7" : "#93c5fd",
+                                color: estaAtiva ? "#0764fa" : "#3b82f6",     
+                                weight: estaAtiva ? 3 : 1,                   
+                                fillOpacity: estaAtiva ? 0.5 : 0.15          
+                            };
+                        }}
                         onEachFeature={aoConfigurarArea}
                     />
                 )}
@@ -171,14 +194,15 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                             icon={iconeCruzVermelha}
                             eventHandlers={{
                                 click: () => {
-                                    // Adiciona as coordenadas para futuro cálculo de Haversine
                                     onSelecionarUnidade({ 
                                         tipo: "posto", 
                                         dados: posto.properties,
                                         coordenadas: [lat, lng],
-                                        userCoords: localizacaoUsuario
+                                        userCoords: localizacaoUsuario,
+                                        abrangenciaAtual: false
                                     });
                                     setDestinoSelecionado([lat, lng]);
+                                    setUnidadeAtiva(nomeUnidade);
                                 }
                             }}
                         >
