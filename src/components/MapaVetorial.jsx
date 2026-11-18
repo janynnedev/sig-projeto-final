@@ -7,12 +7,12 @@ import "leaflet/dist/leaflet.css";
 
 const iconeCruzVermelha = new L.Icon({
     iconUrl: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
             <circle cx="16" cy="16" r="14" fill="white" stroke="#e11d48" stroke-width="2"/>
             <path d="M13 9h6v4h4v6h-4v4h-6v-4H9v-6h4V9z" fill="#e11d48"/>
         </svg>
     `),
-    iconSize: [32, 32],
+    iconSize: [20, 20],
     iconAnchor: [16, 16],
     popupAnchor: [0, -16],
     shadowUrl: null 
@@ -29,18 +29,11 @@ const iconeUsuario = new L.Icon({
 // Coordenadas centrais de Florianópolis
 const CENTRO_FLORIPA = [-27.5954, -48.5480];
 
-const ESTILO_ABRANGENCIA = {
-    fillColor: "#3b83f6cb", 
-    color: "#1d4ed8",
-    weight: 2,
-    fillOpacity: 0.3
-};
-
 // Algoritmo Ray-Casting: Verifica se um ponto (GPS) está dentro de um Polígono (Bairro)
 function verificarPontoNoPoligono(pontoLngLat, coordenadasPoligono) {
     const x = pontoLngLat[0], y = pontoLngLat[1];
     let dentro = false;
-    const anelExterior = coordenadasPoligono[0]; // Pega as bordas externas da área
+    const anelExterior = coordenadasPoligono[0]; // Pega as bordas externas da área do polígono
     
     for (let i = 0, j = anelExterior.length - 1; i < anelExterior.length; j = i++) {
         const xi = anelExterior[i][0], yi = anelExterior[i][1];
@@ -61,6 +54,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
     const [autoSelecionado, setAutoSelecionado] = useState(false);
     const [unidadeAtiva, setUnidadeAtiva] = useState(null);
 
+    // useEffect principal para o mapa vetorial e rastreamento GPS
     useEffect(() => {
         Promise.all([
             fetch("/abrangencia-csaude.geojson").then(res => res.json()),
@@ -86,6 +80,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
         return () => navigator.geolocation.clearWatch(gpsId);
     }, []);
 
+    // useEffect que determina o centro de saúde conforme localização atual do usuário
     useEffect(() => {
         if (localizacaoUsuario && dadosAbrangencia && dadosPontos && !autoSelecionado) {
             const lng = localizacaoUsuario[1];
@@ -98,26 +93,26 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
             );
 
             if (areaDoUsuario) {
-                // 2. Usa verificarAreaAtiva para achar o posto exato daquela área
-                const postoDoUsuario = dadosPontos.features.find(f => 
+                // 2. Usa verificarAreaAtiva para achar o centro de saúde exato da área
+                const centroDoUsuario = dadosPontos.features.find(f => 
                     f.geometry && f.geometry.type === "Point" && 
                     verificarAreaAtiva(areaDoUsuario.properties.name, f.properties.name)
                 );
 
-                if (postoDoUsuario) {
-                    const postoLat = postoDoUsuario.geometry.coordinates[1];
-                    const postoLng = postoDoUsuario.geometry.coordinates[0];
+                if (centroDoUsuario) {
+                    const centroLat = centroDoUsuario.geometry.coordinates[1];
+                    const centroLng = centroDoUsuario.geometry.coordinates[0];
 
                     onSelecionarUnidade({ 
-                        tipo: "posto", 
-                        dados: postoDoUsuario.properties,
-                        coordenadas: [postoLat, postoLng],
+                        tipo: "centro", 
+                        dados: centroDoUsuario.properties,
+                        coordenadas: [centroLat, centroLng],
                         userCoords: localizacaoUsuario,
-                        abrangenciaAtual: true // Ativa o aviso verde no painel
+                        abrangenciaAtual: true // Ativa o aviso verde no painel de atributos
                     });
                     
-                    setDestinoSelecionado([postoLat, postoLng]);
-                    setUnidadeAtiva(postoDoUsuario.properties.name); // Acende a área automaticamente
+                    setDestinoSelecionado([centroLat, centroLng]);
+                    setUnidadeAtiva(centroDoUsuario.properties.name); // Acende a área automaticamente
                     setAutoSelecionado(true);
                 }
             }
@@ -128,7 +123,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
     function aoConfigurarArea(feature, layer) {
         layer.on({
             click: () => {
-                // Passa as propriedades da área clicada para o painel principal
+                // Passa as propriedades da área clicada para o painel de atributos
                 onSelecionarUnidade({ tipo: "area", dados: feature.properties });
             },
         });
@@ -181,11 +176,11 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                 )}
 
                 {/* Camada 2: Marcadores das Unidades de Saúde */}
-                {dadosPontos && dadosPontos.features.map((posto, index) => {
+                {dadosPontos && dadosPontos.features.map((centro, index) => {
                     // GeoJSON armazena coordenadas como [longitude, latitude]
-                    const lat = posto.geometry.coordinates[1];
-                    const lng = posto.geometry.coordinates[0];
-                    const nomeUnidade = posto.properties.name || "Unidade de Saúde";
+                    const lat = centro.geometry.coordinates[1];
+                    const lng = centro.geometry.coordinates[0];
+                    const nomeUnidade = centro.properties.name || "Unidade de Saúde";
 
                     return (
                         <Marker 
@@ -195,8 +190,8 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                             eventHandlers={{
                                 click: () => {
                                     onSelecionarUnidade({ 
-                                        tipo: "posto", 
-                                        dados: posto.properties,
+                                        tipo: "centro", 
+                                        dados: centro.properties,
                                         coordenadas: [lat, lng],
                                         userCoords: localizacaoUsuario,
                                         abrangenciaAtual: false
@@ -211,7 +206,7 @@ export default function MapaVetorial({ onSelecionarUnidade }) {
                     );
                 })}
 
-                {/* Marcador em tempo real do Usuário */}
+                {/* Marcador GPS tempo real do Usuário */}
                 {localizacaoUsuario && (
                     <Marker position={localizacaoUsuario} icon={iconeUsuario}>
                         <Popup>Sua localização atual</Popup>

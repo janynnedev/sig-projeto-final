@@ -26,7 +26,7 @@ export default function Home() {
     return (
         <main className={styles.container}>
             <header className={styles.cabecalho}>
-                <h1>Acesso à Saúde - Florianópolis</h1>
+                <h1>Centros de Saúde - Florianópolis</h1>
                 <p>Mapeamento de Centros de Saúde e Áreas de Abrangência</p>
             </header>
 
@@ -39,7 +39,7 @@ export default function Home() {
 
                 {selecao ? (
                     <div className={styles.listaAtributos}>
-                        {selecao.tipo === "posto" && (
+                        {selecao.tipo === "centro" && (
                             <>
                                 {selecao.abrangenciaAtual && (
                                     <div style={{ 
@@ -80,14 +80,14 @@ export default function Home() {
                         
                         {selecao.dados.description && selecao.dados.description.value && (
                             <div 
-                                style={{ marginTop: '10px', fontSize: '0.9rem', color: '#64748b' }}
+                                style={{ marginTop: '10px', fontSize: '0.9rem', color: '#b9c6d8' }}
                                 dangerouslySetInnerHTML={{ __html: selecao.dados.description.value }} 
                             />
                         )}
                     </div>
                 ) : (
                     <p className={styles.instrucaoVazio}>
-                        Toque em um posto de saúde (cruz vermelha) ou em um bairro para ver os detalhes. Seu local é o marcador vermelho.
+                        Toque em um centro de saúde (cruz vermelha) ou em um bairro para ver os detalhes. Seu local é o marcador vermelho.
                     </p>
                 )}
             </section>
